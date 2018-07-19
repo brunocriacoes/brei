@@ -1,0 +1,47 @@
+.menu-mobile-ico {
+    display: block;
+}
+.menu-mobile-ico img {
+    width: 30px;
+}
+.contact-content {
+    grid-template-columns: repeat( 1, 1fr );
+    text-align: center;
+}
+.block-home {
+    width: calc( 100% - 20px );
+    display: block;
+}
+.video-home {
+    grid-template-columns: 1fr;
+}
+.video-home iframe {
+    width: 80vw;
+}
+.menu a{
+    display: none;
+}
+.banner {
+    height: 50vh;
+    background-size: 100% 50vh;
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+}
+.banner-link {
+    display: none;
+}
+.menu-mobile > a {
+    color: #464646;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2px 6px;
+    text-transform: uppercase;
+}
+.frases {
+    width: 70vw;
+    font-size: 1.5em;
+    margin: 0 auto;
+}
